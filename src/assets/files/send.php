@@ -10,4 +10,4 @@ echo ' usertel ' .  $usertel;
 echo ' useremail ' .  $useremail;
 echo ' typeCourse ' .  $typeCourse;
 
-require_once __DIR__ . "/telegram.php"; // Send to Telegram
+// require_once __DIR__ . "/telegram.php"; // Send to Telegram

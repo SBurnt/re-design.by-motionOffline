@@ -24,7 +24,12 @@
 				<p class="form__thanks">Спасибо, ваше сообщение отправлено, наши менеджеры скоро свяжутся с вами.</p>
 			</div>
 			<div class="form__img-wrap">
-				<img class="form__img lazyload" data-src="assets/images/main/form-feedback.jpg" loading="lazy" alt="">
+				{# <img class="form__img lazyload" src="#" data-src="assets/images/main/form-feedback.jpg" width="900" height="600" loading="lazy" alt=""> #}
+				<div class="full-img__video">
+					<video class="video" loop autoplay muted playsinline webkit-playinginline>
+						<source src="assets/images/main/video01.mp4" type="video/mp4"/>
+					</video>
+				</div>
 			</div>
 		</div>
 	</div>

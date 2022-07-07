@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 /* eslint-disable no-unused-vars */
 import Swiper from '../../../node_modules/swiper/swiper-bundle';
 
@@ -63,11 +64,16 @@ if (sliderTeachers) {
 	const mql = window.matchMedia('(min-width: 1200px)');
 	const slidesPerView = document.querySelectorAll('.teachers__item-thumbs').length;
 
+	if (slidesPerView === 1) {
+		document.querySelector('.teachers .slider__arrows-wrap').style.display = 'none';
+	}
+
 	if (mql.matches) {
 		const swiperThumbs = new Swiper('.js-slider-teachers-thumbs-init', {
 			allowTouchMove: false,
 			spaceBetween: -40,
-			slidesPerView: slidesPerView >= 3 ? 3 : 2,
+			// slidesPerView: slidesPerView >= 3 ? 3 : 2,
+			slidesPerView: slidesPerView >= 3 ? 3 : slidesPerView === 2 ? 2 : 1,
 			// slidesPerView: 'auto',
 			centeredSlides: true,
 			centeredSlidesBounds: true,
@@ -75,7 +81,7 @@ if (sliderTeachers) {
 		});
 
 		const swiperText = new Swiper('.js-slider-teachers-init', {
-			loop: true,
+			loop: slidesPerView !== 1,
 			allowTouchMove: false,
 			spaceBetween: 0,
 			slidesPerView: 1,

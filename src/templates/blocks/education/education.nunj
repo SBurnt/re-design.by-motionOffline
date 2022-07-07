@@ -4,9 +4,9 @@
 			<h2 class="section__title white">как проходит обучение?</h2>
 			<ul class="education__list accordion__list">
 				<li class="education__item accordion__item open">
-					<span class="education__title">Аудиторные занятия и домашние задания.</span>
+					<span class="education__title">Аудиторные занятия.</span>
 					<div class="education__info accordion__content" aria-hidden="false">
-						<p class="education__desc">Обучение проходит в классе, оно включает в себя как изучение теоретического блока, так и выполнение заданий под руководством преподавателя. Студенты будут выполнять часть заданий на реальных проектах.</p>
+						<p class="education__desc">Обучение проходит в классе, оно включает в себя как изучение теоретического блока, так и выполнение практических работ.</p>
 					</div>
 					<button class="btn education__btn accordion__control" aria-expanded="true">
 						<span class="education__btn-plus"></span>
@@ -14,9 +14,9 @@
 				</li>
 
 				<li class="education__item accordion__item">
-					<span class="education__title">Посещение салонов, строительных объектов, для выполнения заданий.</span>
+					<span class="education__title">Выполнение домашних заданий.</span>
 					<div class="education__info accordion__content" aria-hidden="true">
-						<p class="education__desc">В процессе обучения предусмотрено посещение салонов, магазинов и шоу-румов для знакомства с различными строительными материалами, мебелью, освещением, элементами декора.</p>
+						<p class="education__desc">В процессе обучения предмусмотрены домашние задания, для закрепления полученных навыков.</p>
 					</div>
 					<button class="btn education__btn accordion__control" aria-expanded="false">
 						<span class="education__btn-plus"></span>
@@ -24,9 +24,9 @@
 				</li>
 
 				<li class="education__item accordion__item">
-					<span class="education__title">Встречи с представителями индустрии.</span>
+					<span class="education__title">Работа над портфолио.</span>
 					<div class="education__info accordion__content" aria-hidden="true">
-						<p class="education__desc">Мы предусмотрели встречи с представителями индустрии, в том числе со специалистами по ремонтным работам, отделке. Это необходимо для более глубокого понимания профессии и для расширения вашего круга полезных знакомств и контактов.</p>
+						<p class="education__desc">Каждый ученик с первых занятий начинает работать над проектами, которые сможет сформировать в свое портфолио.</p>
 					</div>
 					<button class="btn education__btn accordion__control" aria-expanded="false">
 						<span class="education__btn-plus"></span>

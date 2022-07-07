@@ -10,15 +10,15 @@
 					<ul class="swiper-wrapper teachers__list">
 						<li class="swiper-slide teachers__item">
 							<div class="teachers__img-wrap">
-								<img class="teachers__img lazyload" data-src="assets/images/main/teachers/кольга.png" loading="lazy" alt="Андрей Кольга">
+								<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/шварко.png" width="340" height="300" loading="lazy" alt="Павел Шварко">
 							</div>
-							<span class="teachers__name">Андрей Кольга</span>
-							<span class="teachers__experience">Более 15-ти лет опыта</span>
-							<p class="teachers__desc">Дизайнер интерьера, художник, художник-рестовратор. В 2006 г. закончил Академию искусств по специальности дизайн интерьера. С 2014 года — член союза художников Беларуси, участник многочисленных художественных выставок и международных проектов. Опыт в проектировании общественных и жилых пространств — более 15-ти лет. В составе творческой группы Bastalia участвовал в проектах реставрвции интерьеров памятников архитектуры — Свято Петро-Павловкий собор в Минске, Усадебный дом-музей в Лошице, дворцово-замковый комплекс в Несвиже и т.д. Руководитель студии интерьеров AKstudio с 2010 года.</p>
+							<span class="teachers__name">Павел Шварко</span>
+							<span class="teachers__experience">Motion Designer, диктор, фрилансер.</span>
+							<p class="teachers__desc">Более сотни работающих рекламных роликов, опыт работы 6 лет.</p>
 						</li>
-						<li class="swiper-slide teachers__item">
+						{# <li class="swiper-slide teachers__item">
 							<div class="teachers__img-wrap">
-								<img class="teachers__img lazyload" data-src="assets/images/main/teachers/кахно-removebg-preview.png" loading="lazy" alt="Евгения Кахно">
+								<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/кахно-removebg-preview.png" width="340" height="300" loading="lazy" alt="Евгения Кахно">
 							</div>
 							<span class="teachers__name">Евгения Кахно</span>
 							<span class="teachers__experience">Более 6-ти лет опыта</span>
@@ -26,12 +26,12 @@
 						</li>
 						<li class="swiper-slide teachers__item">
 							<div class="teachers__img-wrap">
-								<img class="teachers__img lazyload" data-src="assets/images/main/teachers/петринч-removebg-preview.png" loading="lazy" alt="Елена Петринич">
+								<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/петринч-removebg-preview.png" width="340" height="300" loading="lazy" alt="Елена Петринич">
 							</div>
 							<span class="teachers__name">Елена Петринич</span>
 							<span class="teachers__experience">Куратор и преподаватель программы</span>
 							<p class="teachers__desc">Более 5 лет преподавала теорию и практику интерьерного дизайна, а также AutoCad и 3dsMax. Автор курсов по теории дизайна интерьера, AutoCad и 3dsMax. Два года сотрудничала с минским проектом "Открытый лекторий" - вела лекции по истории архитектуры, истории искусств и истории дизайна - больше 20 лекций по истории дизайна и архитектуры Соавтор курсов по интерьерному дизайну и визуализации в московской академии дизайн профессий PentaSchool Работала ведущим дизайнером интерьера в Дизайн-студии Zox.</p>
-						</li>
+						</li> #}
 					</ul>
 					<div class="slider__arrows-wrap">
 						<button class="btn slider__arrows-prev">
@@ -51,19 +51,19 @@
 						<!-- be sure to add a class 'swiper-slide-thumb-active' to the first item -->
 						<li class="swiper-slide teachers__item-thumbs swiper-slide-thumb-active">
 							<div class="teachers__img-wrap-thumbs">
-								<img class="teachers__img-thumbs lazyload" data-src="assets/images/main/teachers/кольга.png" loading="lazy" alt="Андрей Кольга">
+								<img class="teachers__img-thumbs lazyload" src="#" data-src="assets/images/main/teachers/шварко.png" width="300" height="300" loading="lazy" alt="Павел Шварко">
+							</div>
+						</li>
+						{# <li class="swiper-slide teachers__item-thumbs">
+							<div class="teachers__img-wrap-thumbs">
+								<img class="teachers__img-thumbs lazyload" src="#" data-src="assets/images/main/teachers/кахно-removebg-preview.png" width="300" height="300" loading="lazy" alt="Евгения Кахно">
 							</div>
 						</li>
 						<li class="swiper-slide teachers__item-thumbs">
 							<div class="teachers__img-wrap-thumbs">
-								<img class="teachers__img-thumbs lazyload" data-src="assets/images/main/teachers/кахно-removebg-preview.png" loading="lazy" alt="Евгения Кахно">
+								<img class="teachers__img-thumbs lazyload" src="#" data-src="assets/images/main/teachers/петринч-removebg-preview.png" width="300" height="300" loading="lazy" alt="Елена Петринич">
 							</div>
-						</li>
-						<li class="swiper-slide teachers__item-thumbs">
-							<div class="teachers__img-wrap-thumbs">
-								<img class="teachers__img-thumbs lazyload" data-src="assets/images/main/teachers/петринч-removebg-preview.png" loading="lazy" alt="Елена Петринич">
-							</div>
-						</li>
+						</li> #}
 					</ul>
 				</div>
 			</div>
